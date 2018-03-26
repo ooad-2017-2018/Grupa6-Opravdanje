@@ -48,9 +48,9 @@ Korisnici aplikacije (klijenti ili pružaoci usluga), u zavisnosti od toga da li
   - cijena
   - grad
   - vrsta usluge:
-     - frizura 
-     - šišanje 
-     - šminka
+     1. frizura 
+     2. šišanje 
+     3. šminka
 - Pretraživanje koristeći naziv imena poslovnog profila
 - Pretraživanje koristeći mapu
 - Odabir odgovarajućeg profila sa mape
@@ -77,9 +77,9 @@ Korisnici aplikacije (klijenti ili pružaoci usluga), u zavisnosti od toga da li
 
 ## **Akteri**
 1. Fizičke ličnosti:
- - **_Klijent_** 
+ - **_Klijent_**-
     Osoba koja želi da pronađe odgovarajući frizerski ili kozmetički salon, ili osobu koja je može šminkati. Prema vlastitim željama        može pretraživati dostupne poslovne profile širom Bosne i Hercegovine, te na osnovu fotografija i ocjene profila, kao i blizine          poslovnice odlučiti se da stupi u kontakt ili rezervira termin.
-  - **_Pružalac usluge_** 
+  - **_Pružalac usluge_**-
     Može biti fizičko ili pravno lice, tj. osoba koja nema registrovanu firmu, ili osoba koja ima registrovanu firmu i vlastiti salon na    određenoj adresi. Pruža usluge šminkanja ili pravljenja frizure.
 2. Externi sistemi:
   - Sistem za provjeru autentičnosti pravnih lica
