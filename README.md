@@ -82,7 +82,7 @@ Korisnici aplikacije (klijenti ili pružaoci usluga), u zavisnosti od toga da li
   - Pružalac usluge 
     Može biti fizičko ili pravno lice, tj. osoba koja nema registrovanu firmu, ili osoba koja ima registrovanu firmu i vlastiti salon na    određenoj adresi. Pruža usluge šminkanja ili pravljenja frizure.
 2. Externi sistemi:
-  -Sistem za provjeru autentičnosti pravnih lic
-  -Sistem za komunikaciju korisničkih računa
-  -Sistem za e-plaćanje
+  - Sistem za provjeru autentičnosti pravnih lic
+  - Sistem za komunikaciju korisničkih računa
+  - Sistem za e-plaćanje
  
