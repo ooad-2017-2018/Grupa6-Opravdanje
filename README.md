@@ -72,7 +72,7 @@ Korisnici aplikacije (klijenti ili pružaoci usluga), u zavisnosti od toga da li
 - Mogućnost ocjenjivanja mušterije od strane salona
 - Mogućnost ocjenjivanja salona od strane klijenta
 - e-plaćanje usluga
-- postizanje popusta korištenjem aplikacije
+- Postizanje popusta korištenjem aplikacije
 - Mogućnost kreiranja liste omiljenih profila
 
 ## **Akteri**
