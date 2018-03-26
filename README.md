@@ -17,23 +17,23 @@ S druge strane, obzirom da za sve svečane prilike, kao i one uobičajene, žene
 
 ## **Procesi**
 
-- Prijava/registracija korisnika na aplikaciju
-Ukoliko korisnik aplikacije nema kreiran korisnički račun, on se može registrovati kao klijent i kao pružalac usluge, pri čemu se za korisnike koji žele realizovati poslovni profil zahtjeva unos fotografija, lokacije, cijena usluga i ostalih potrebnih informacija, a za pravno registrovane profile se vrši verifikacija.
+- **_Prijava/registracija korisnika na aplikaciju_**
+   -Ukoliko korisnik aplikacije nema kreiran korisnički račun, on se može registrovati kao klijent i kao pružalac usluge, pri čemu se za korisnike koji žele realizovati poslovni profil zahtjeva unos fotografija, lokacije, cijena usluga i ostalih potrebnih informacija, a za pravno registrovane profile se vrši verifikacija.
 Ukoliko korisnik aplikacije ima račun, može se prijaviti kao klijent ili kao pružalac usluge (poslovni profil). Poslovni korisnik aplikacije može izmijeniti postojeće opšte podatke, dodavati fotografije, drugim riječima uređivati svoj profil, kao i odgovarati na poruke korisnika, potvrditi rezervaciju termina. Korisnik koji je bio registrovan kao klijent može proširiti svoje djelovanje i dodati poslovni profil, također i dodavati salone/profile u svoju listu omiljenih profila kako bi mu bili dostupni brzo.
 
-- Pretraživanje dostupnih pružalaca za traženu uslugu 
+- **_Pretraživanje dostupnih pružalaca za traženu uslugu_**-
 Klijent bira filtere pretraživanja, koji uključuju željenu lokaciju, željenu cijenu i vrstu usluge (šminkanje ili friziranje). Slijedi prikaz spiska dostupnih salona i kozmetičara na osnovu zadanih filtera, uz prikaz osnovnih informacija o profilima kao i njihovih ocjena od strane bivših korisnika.
 
-- Vizuelno pretraživanje registrovanih profila putem mape
+- **_Vizuelno pretraživanje registrovanih profila putem mape_**-
 Korisnici mogu korisiti mapu na kojoj su označeni poslovni profili, i na taj način dobiti bolju sliku o tome koji im od salone bolje paše zboog blizine od njihove trenutne adrese ili zbog određenog dijela grada
 
-- Ostvarivanje komunikacije između klijenata i vlasnika poslovnih profila, rezervacija termina
+- **_Ostvarivanje komunikacije između klijenata i vlasnika poslovnih profila, rezervacija termina_**-
 Nakon uvida u dosadašnje radove, klijent šalje poruku preko aplikacije na poslovni profil pružaoca usluge, u cilju informisanja o usluzi i usaglašavanja termina. Na brz i jednostavan način ostvaruje se komunikacija između dvije strane, pri čemu obje strane koje učestvuju u komunikaciji imaju uvid u opšte informacije oba profila, kao i ocjenu poslovnosti i profesionalnosti, a sve u svrhu uspješnijeg poslovanja. Nakon usaglašavanja termina, klijent i poslovni korisnik rezervišu termin, pri čemu se termin šminkanja ili friziranja dodaje u poslovni plan pružaoca usluge, kao i plan aktivnosti klijenta.
 
-- Internet plaćanje usluga
+- **_Internet plaćanje usluga_**-
 Kada je klijent izabrao željenu poslovnicu, postoji mogućnost da će se u opisu odabranog profila pojaviti opcija plaćanja unaprijed koja sa sobom ima posljedicu nekog određenog popusta zavisno od poslovnog profila (10%, 15%, 20%), a pomenuto plaćanje se može izvršiti internetskim putem, korištenjem određenog vanjskog sistema koji služi za ostvarivanje ove opcije aplikacije. 
 
-- Ocjenjivanje profesionalosti korisnika
+- **_Ocjenjivanje profesionalosti korisnika_**-
 Korisnici aplikacije (klijenti ili pružaoci usluga), u zavisnosti od toga da li su imali zakazanu rezervaciju termina kod drugog korisnika (pružaoca usluge ili klijenta), ostavljaju ocjenu poslovnosti i profesionalnosti, pri čemu sistem provjerava da li je u prošlosti postojala potvrđenja rezervacija termina usluga šminkanja ili frizerskih usluga u svrhu povećanja autentičnosti ocjena.
 
  
@@ -77,12 +77,12 @@ Korisnici aplikacije (klijenti ili pružaoci usluga), u zavisnosti od toga da li
 
 ## **Akteri**
 1. Fizičke ličnosti:
- - Klijent 
+ - **_Klijent_** 
     Osoba koja želi da pronađe odgovarajući frizerski ili kozmetički salon, ili osobu koja je može šminkati. Prema vlastitim željama        može pretraživati dostupne poslovne profile širom Bosne i Hercegovine, te na osnovu fotografija i ocjene profila, kao i blizine          poslovnice odlučiti se da stupi u kontakt ili rezervira termin.
-  - Pružalac usluge 
+  - **_Pružalac usluge_** 
     Može biti fizičko ili pravno lice, tj. osoba koja nema registrovanu firmu, ili osoba koja ima registrovanu firmu i vlastiti salon na    određenoj adresi. Pruža usluge šminkanja ili pravljenja frizure.
 2. Externi sistemi:
-  - Sistem za provjeru autentičnosti pravnih lic
+  - Sistem za provjeru autentičnosti pravnih lica
   - Sistem za komunikaciju korisničkih računa
   - Sistem za e-plaćanje
  
