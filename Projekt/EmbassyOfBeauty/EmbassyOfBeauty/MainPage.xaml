@@ -31,5 +31,14 @@
             Grid.Column="1"
             IsActive="True"
             ></ProgressRing>
+        <Button
+            Grid.Column="2"
+            Grid.Row="0"
+            Click="Button_Click"
+            Content="CLICK ME"
+            HorizontalAlignment="Center"
+            FontSize="30"
+            Name="dugme"
+            ></Button>
     </Grid>
 </Page>

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{067A271E-8860-46C0-BAF0-39252DC859D3}</ProjectGuid>
+    <ProjectGuid>{3FB44C37-580B-4734-9A73-F834F556FE98}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EmbassyOfBeauty</RootNamespace>

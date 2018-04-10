@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="fc8d1add-641d-4994-b5cf-2e55a491c422"
+    Name="b459f306-1f93-4cfc-859c-34187495a026"
     Publisher="CN=Sejma"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="fc8d1add-641d-4994-b5cf-2e55a491c422" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b459f306-1f93-4cfc-859c-34187495a026" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>EmbassyOfBeauty</DisplayName>
