@@ -14,6 +14,10 @@ namespace projekat.Models
         List<Rezervacija> rezervacije;
         int brojZaposlenih;
 
+        public PoslovniProfil()
+        {
+        }
+
         public PoslovniProfil(string adresa, bool statusLicaVerifikovan, List<Slika> slike, int brojzaposlenih)
         {
             this.Adresa = adresa;

@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace projekat.Models
 {
-    class Osobacs
+    public class Osoba
     {
         Int32 ID;
         string ime;
         string prezime;
+
+        public Osoba()
+        {
+        }
 
         public Osoba(int iD, string ime, string prezime)
         {

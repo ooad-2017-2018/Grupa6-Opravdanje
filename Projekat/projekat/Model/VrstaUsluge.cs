@@ -20,3 +20,4 @@ namespace projekat.Models
         public int ID1 { get => ID; set => ID = value; }
         public string NazivUsluge { get => nazivUsluge; set => nazivUsluge = value; }
     }
+}

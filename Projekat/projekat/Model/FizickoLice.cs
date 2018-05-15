@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace projekat.Models
 {
-    public class FizickoLice : PoslovniProfil
+    public class fizickoLice : PoslovniProfil
     {
         Boolean dolazakNaAdresu;
 
-        public FizickoLice(bool dolazakNaAdresu)
+        public fizickoLice(bool dolazakNaAdresu)
         {
-            this.DolazakNaAdresu = dolazakNaAdresu;
+            DolazakNaAdresu = dolazakNaAdresu;
         }
 
         public bool DolazakNaAdresu { get => dolazakNaAdresu; set => dolazakNaAdresu = value; }

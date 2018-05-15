@@ -85,7 +85,7 @@ namespace projekat
 
         /// <summary>
         /// Invoked when application execution is being suspended.  Application state is saved
-        /// without knowing whether the application will be terminated or resumed with the contents
+        /// without knowing whether the application will be terminated or resumed with ntents
         /// of memory still intact.
         /// </summary>
         /// <param name="sender">The source of the suspend request.</param>

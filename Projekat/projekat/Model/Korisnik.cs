@@ -10,12 +10,17 @@ namespace projekat.Models
     {
         string email;
         string username;
-        string password
+        string password;
         DateTime datumRodjenja;
         string gradStanovanja;
         Boolean statusVerifikovan;
 
-        public Korisnik(string email, string username, string password, DateTime datumRodjenja, string gradStanovanja, bool statusVerifikovan)
+        public Korisnik()
+        {
+           
+        }
+
+        public Korisnik(int id, string ime, string prezime, string email, string username, string password, DateTime datumRodjenja, string gradStanovanja, bool statusVerifikovan) :base(id, ime, prezime)
         {
             this.Email = email;
             this.Username = username;

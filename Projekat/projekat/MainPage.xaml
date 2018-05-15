@@ -2,12 +2,79 @@
     x:Class="projekat.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:projekat"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+
+
+
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="0.15*" />
+
+            <RowDefinition Height="0.85*" />
+
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="Black">
+
+            <TextBlock Name="Login1" 
+            TextAlignment="Center" FontSize="30" FontStyle="Italic"  
+            FontWeight="ExtraBlack"></TextBlock>
+
+        </Border>
+
+        <Border Grid.Row="2" Background="Black">
+
+            <TextBlock Name="Login" Text="Embassy Of Beauty"  
+            TextAlignment="Center" FontSize="30" FontStyle="Italic"  
+            FontWeight="ExtraBlack"></TextBlock>
+
+        </Border>
+
+
+        <Border Grid.Row="1" Background="LightPink">
+
+            <TextBlock Name="Login2" Text="Embassy Of Beauty"  
+            TextAlignment="Center" FontSize="30" FontStyle="Italic"  
+            FontWeight="ExtraBlack"></TextBlock>
+
+        </Border>
+
+        <StackPanel x:Name="stackone" Grid.Row="1" Margin="114,10,112,-3483">
+
+            <TextBox PlaceholderText="Enter Email" Width="300"  
+            Margin="0,50,0,0" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <CompositeTransform Rotation="0.048"/>
+                </TextBox.RenderTransform>
+            </TextBox>
+
+            <TextBox PlaceholderText="Enter Password"  
+            Width="300" Margin="0,10,0,0"></TextBox>
+
+            <RelativePanel HorizontalAlignment="Center"  
+            Margin="0,10,0,0">
+
+                <Button x:Name="loginbtn" Content="Login"  
+                Height="35" Width="65" RenderTransformOrigin="0.5,0.5"
+                >
+
+                </Button>
+
+                <Button x:Name="cancelbtn" Content="Cancel"  
+                Height="35" Width="65" Margin="10,0,0,0"  
+                RelativePanel.RightOf="loginbtn"
+                 Click="OdustaniClick"  
+                ></Button>
+
+            </RelativePanel>
+
+        </StackPanel>
+
     </Grid>
-</Page>
+
+</Page>   

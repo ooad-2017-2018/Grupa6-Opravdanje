@@ -17,14 +17,14 @@ namespace projekat.Models
             rezervacije = new List<Rezervacija>();
         }
 
-        public DodajUFavorite(PoslovniProfil profil)
+        public void DodajUFavorite(PoslovniProfil profil)
         {
             omiljeniProfili.Add(profil);
         }
 
-        public DodajRezervaciju(Rezervacija rezervacija)
+        public void DodajRezervaciju(Rezervacija rezervacija)
         {
-            rezervacije.Add(Rezervacija);
+            rezervacije.Add(rezervacija);
         }
     }
 }
