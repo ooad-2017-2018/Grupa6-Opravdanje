@@ -1,6 +1,7 @@
 ﻿using Windows.UI.Xaml.Controls;
 using projekat.ViewModel;
 using Windows.UI.Popups;
+using projekat.RegistracijaDetalji;
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -18,16 +19,11 @@ namespace projekat
         }
          public PrijavaViewModel Osoba { get; set; }
 
-        public  void OdustaniClick()
-        {
-            MessageDialog dialog = new MessageDialog("Yes or no?");
-            dialog.Commands.Add(new UICommand("Yes", null));
-            dialog.Commands.Add(new UICommand("No", null));
-            dialog.DefaultCommandIndex = 0;
-            dialog.CancelCommandIndex = 1;
+    
 
-           
-            
+        private void loginbtn_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(FormaRegistracije));
         }
 
        

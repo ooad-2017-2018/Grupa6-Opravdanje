@@ -110,6 +110,9 @@
     <Compile Include="Model\Usluga.cs" />
     <Compile Include="Model\VrstaUsluge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistracijaDetalji\FormaRegistracije.xaml.cs">
+      <DependentUpon>FormaRegistracije.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\PrijavaViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
